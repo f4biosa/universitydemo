@@ -1,0 +1,3 @@
+[submodule "themes/govbrds3"]
+	path = themes/govbrds3
+	url = https://github.com/roraimae/aratinga-theme_govbrds.git
