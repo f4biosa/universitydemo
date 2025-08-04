@@ -1,11 +1,11 @@
-<<<<<<< HEAD
 # universitydemo
-Next generation Aratinga demo, born in North of Brazil
-=======
+
+## Next generation Aratinga demo, born in North of Brazil
+
 universitydemo website
 Code for site at: http://localhost
 
-# Primeiros passos
+## Primeiros passos
 Certifique-se de que uma versão recente do Python esteja instalada em seu sistema. Abra esse diretório em um prompt de comando e, em seguida:
 
 1. Insta-le o Software:
@@ -22,4 +22,3 @@ Certifique-se de que uma versão recente do Python esteja instalada em seu siste
     ```
    
 Vá para http://localhost:8000/ no seu browser, ou http://localhost:8000/admin/ para logar e começar a trabalhar!
->>>>>>> aa393c2 (Initial commit)
