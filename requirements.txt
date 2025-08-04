@@ -1,0 +1,2 @@
+aratinga
+wagtail==6.4.*
