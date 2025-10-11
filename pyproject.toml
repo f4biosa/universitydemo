@@ -1,0 +1,9 @@
+[project]
+name = "About Next generation Aratinga demo, born in North of Brasil"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aratinga>=0.1.0a0.dev2",
+]
