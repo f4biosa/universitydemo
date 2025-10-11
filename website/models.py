@@ -19,8 +19,8 @@ class ArticlePage(AratingaArticlePage):
     # Only allow this page to be created beneath an ArticleIndexPage.
     parent_page_types = ["website.ArticleIndexPage"]
 
-    template = "aratinga/pages/article_page.html"
-    search_template = "aratinga/pages/article_page.search.html"
+    template = "pages/article_page.html"
+    search_template = "pages/article_page.search.html"
 
 
 class ArticleIndexPage(AratingaArticleIndexPage):
@@ -37,7 +37,7 @@ class ArticleIndexPage(AratingaArticleIndexPage):
     # Only allow ArticlePages beneath this page.
     subpage_types = ["website.ArticlePage"]
 
-    template = "aratinga/pages/article_index_page.html"
+    template = "pages/article_index_page.html"
 
 
 class WebPage(AratingaWebPage):
@@ -48,7 +48,7 @@ class WebPage(AratingaWebPage):
     class Meta:
         verbose_name = _("Web Page")
 
-    template = "aratinga/pages/web_page.html"
+    template = "pages/web_page.html"
 
     def get_context(self, request):
         context = super().get_context(request)
