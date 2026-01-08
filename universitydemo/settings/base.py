@@ -24,10 +24,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
 INSTALLED_APPS = [
     # This project
+    "themes.govbrds",
     "website",
     "search",
-    "documents",
-    "themes.govbrds3",
+    "documents",    
 
     # Aratinga
     "aratinga",
